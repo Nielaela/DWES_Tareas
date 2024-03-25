@@ -1,0 +1,118 @@
+/* CONFIGURACIÓN PARA TODOS LOS ELEMENTOS HTML DEL PROYECTO */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6925a;
+}
+
+header {
+    background-color: #e6925a;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav {
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+/* configuración para las cajas del formulario */
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botones{
+    display: block;
+    text-align: center;
+}
+
+label, select {
+    width: 35%; 
+    box-sizing: border-box; 
+    padding: 10px;  
+}
+.formulario input{
+    width: 35%; 
+    box-sizing: border-box; 
+    padding: 10px;  
+}
+/* configuracion para el mensaje de error */
+.mensaje_error{
+    font-size:25px;
+    font-weight: bold;
+    color: #0400ff;
+    text-align: center;
+    margin: 15px;
+    
+}
+/* configuracion boton Instalar Datos */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-InstalarDatos {
+    background-color: #00ff73;
+    padding: 35px 50px;
+    font-size: 50px;
+    display: block;
+    margin: 0px 100px;
+}
+
+/* resto botones */
+.btn-fcrear {
+    background-color: #00ff73;
+    padding: 10px 20px;
+}
+.btn-formCrear {
+    background-color: #0400ff;
+    padding: 10px 20px;
+}
+.btn-formLimpiar {
+    background-color: #00ff73;
+    padding: 10px 20px;
+}
+.btn-formVolver {
+    background-color: #00e1ff;
+    padding: 10px 20px;
+}

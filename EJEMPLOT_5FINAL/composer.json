@@ -1,0 +1,26 @@
+{
+    "name": "daniela/daniela",
+    "description": "ejercicioejemplo",
+    "type": "project",
+    "license": "gpl",
+    "require": {
+	    "philo/laravel-blade": "3.*"
+	},
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src/"
+        }
+    },
+
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    },
+    "config": {
+        "platform": {
+            "php": "7.4.30"
+        }
+    }
+}

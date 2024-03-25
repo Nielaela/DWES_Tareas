@@ -1,0 +1,30 @@
+<?php
+/**Clase Conexion, da conexion a la BD y el resto de clases heredara de ella */
+
+class Conexion
+{
+    protected static $conexion;
+
+
+    public function __construct()
+    {
+        if (self::$conexion == null) {
+            self::crearConexion();
+        }
+    }
+
+    public static function crearConexion()
+    {
+        $user = "gestor";
+        $pass = "secreto";
+        $base='proyecto';
+        $dsn = "mysql:host=localhost;dbname=$base;charset=utf8mb4";
+        
+        try {
+            self::$conexion = new PDO($dsn, $user, $pass);
+            self::$conexion->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+        } catch (\PDOException $ex) {
+            die("Error en la conexión: mensaje: " . $ex->getMessage());
+        }
+    }
+}

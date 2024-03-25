@@ -1,0 +1,29 @@
+{
+    "name": "daniela/tarea6dwes",
+    "description": "tarea6 dwes",
+    "type": "project",
+    "license": "gpl",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform": {
+			"php": "7.4.32"
+		}
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src"
+        }
+    },
+    
+    "authors": [
+        {
+            "name": "Nielaela",
+            "email": "nielaela@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+   
+}

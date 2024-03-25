@@ -1,0 +1,29 @@
+{
+    "name": "usuario/practica",
+    "description": "Practica Unidad 5",
+    "type": "project",
+    "require": {
+        "fakerphp/faker": "^1.21",
+        "philo/laravel-blade": "3.*"
+    },
+    "config": {
+        "optimize-autoloader": true
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src"
+        }
+    },
+	"config": {
+		"platform": {
+			"php": "7.4.32"
+		}
+	},
+    "license": "GNU/GPL",
+    "authors": [
+        {
+            "name": "usuario",
+            "email": "usuario@correo.es"
+        }
+    ]
+}

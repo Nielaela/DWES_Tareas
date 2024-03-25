@@ -1,0 +1,30 @@
+{
+    "name": "daniela/daniela",
+    "description": "tarea 5 dwes",
+    "type": "project",
+    "require": {
+        "philo/laravel-blade": "^3.1",
+        "fakerphp/faker": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Clases\\": "src"
+        }
+    },
+    "license": "gpl",
+    "authors": [
+        {
+            "name": "Nielaela",
+            "email": "nielaela@hotmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        },
+        "platform": {
+            "php": "7.4.30"
+        }
+    }
+}
+
