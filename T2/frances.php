@@ -7,7 +7,6 @@ reduciendo el capital a amortizar y los intereses a pagar. -->
 
 <?php
 
-//prueba commit
 $capital = 5000;
 $anios = 6;
 $interesTAE = 0.05;
